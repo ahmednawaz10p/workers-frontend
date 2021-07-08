@@ -1,0 +1,27 @@
+.mainFooterSection {
+  background-color: #f1f1f1;
+  padding-block: 55px;
+  ul {
+    li {
+      padding: 5px 0;
+    }
+  }
+  .footerSubscriberEmail {
+    display: flex;
+    position: relative;
+    .footerSubmitButton {
+      position: absolute !important; /*important to override MUIButton own value */
+      height: 45px;
+      top: 5px;
+      right: 5px;
+    }
+  }
+  .footerSMHeading {
+    margin-top: 20px;
+  }
+}
+
+.mainFooterBottomBar {
+  background-color: #ccc;
+  padding-block: 15px;
+}
